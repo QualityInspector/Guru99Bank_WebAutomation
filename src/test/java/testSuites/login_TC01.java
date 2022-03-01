@@ -27,7 +27,7 @@ public class login_TC01 extends TestBase {
 		PO1_LoginPage loginPage = new PO1_LoginPage(driver);
 
 		loginPage.userIdTextbox("mngr389366");
-		loginPage.passwordTextbox("qErubezgfdgd");
+		loginPage.passwordTextbox("qErubez");
 		loginPage.loginButton();
 
 		Thread.sleep(5000);
